@@ -17,3 +17,12 @@ When  User selects car "SUV" pick up point "Bangalore" and drop location "Hydera
  Then Driver starts the journey
  And Driver ends the journey
  Then User pays 1000 USD
+ 
+ 
+ @Sanity
+ Scenario:         Booking cab
+Given User wants to select car "Exter" from app
+When  User selects car "Exter" pick up point "Bangalore" and drop location "Hyderabad"
+ Then Driver starts the journey
+ And Driver ends the journey
+ Then User pays 1000 USD
