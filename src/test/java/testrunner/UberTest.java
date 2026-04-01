@@ -6,9 +6,9 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/resources/uber.feature"},
+@CucumberOptions(features = {"src/test/resources/AppFeatures/uber.feature"},
 glue = {"stepdefinitions"},
-tags = "@smoke", 
+tags = "@Regression",
 plugin = {"pretty"}
 )
 public class UberTest {
