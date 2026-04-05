@@ -33,7 +33,7 @@ public void user_enters_password() {
 
 @When("User clicks on login button")
 public void user_clicks_on_login_button() {
-	System.out.println("Step5");
+//	System.out.println("Step5");
     
 }
 
