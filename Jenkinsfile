@@ -9,6 +9,7 @@ stage('Build')
     steps
 {
     echo 'Build Application'
+    sh 'mvn clean test'
 }
 }
 
